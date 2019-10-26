@@ -1,0 +1,28 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "node demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ], 
+  "author": "Michael Liao",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelliao/learn-javascript.git"
+  },
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.3.2",
+    "mysql": "^2.17.1",
+    "q": "^1.5.1",
+    "log4js": "^5.2.0"
+  }
+}
